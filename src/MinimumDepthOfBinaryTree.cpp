@@ -15,7 +15,7 @@ MinimumDepthOfBinaryTree::MinimumDepthOfBinaryTree() {
 MinimumDepthOfBinaryTree::~MinimumDepthOfBinaryTree() {
 	// TODO Auto-generated destructor stub
 }
-
+//problem 111
 int MinimumDepthOfBinaryTree::minDepth(TreeNode *root){
 	if(root==NULL)
 		return 0;
