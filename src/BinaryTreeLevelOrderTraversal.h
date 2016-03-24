@@ -18,5 +18,6 @@ public:
 	BinaryTreeLevelOrderTraversal();
 	~BinaryTreeLevelOrderTraversal();
 	vector<vector<int>> levelOrder(TreeNode* root);
+	vector<vector<int>> levelOrderBottom(TreeNode* root);
 };
 
